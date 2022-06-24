@@ -29,7 +29,8 @@
     "test": "jest",
     "test:cov": "jest --coverage",
     "test:watch": "jest --watch",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "types": "tsc src/typeorm-seeding.ts --declaration --emitDeclarationOnly"
   },
   "devDependencies": {
     "@semantic-release/git": "^9.0.0",
